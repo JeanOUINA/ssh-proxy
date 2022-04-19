@@ -1,0 +1,30 @@
+{
+  "name": "ssh-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run build && npm start",
+    "start": "node .",
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JeanOUINA/ssh-proxy.git"
+  },
+  "author": "JeanOUINA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeanOUINA/ssh-proxy/issues"
+  },
+  "homepage": "https://github.com/JeanOUINA/ssh-proxy#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.2",
+    "@types/ssh2": "^0.5.47",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "ssh2": "^1.1.0"
+  }
+}

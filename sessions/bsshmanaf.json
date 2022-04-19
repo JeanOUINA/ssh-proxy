@@ -1,0 +1,9 @@
+{
+    "method": "publickey",
+    "key": {
+        "algo": "ssh-rsa",
+        "data": "ma clé ssh connard"
+    },
+    "username": "manaf",
+    "ip": "::1"
+}
